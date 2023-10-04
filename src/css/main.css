@@ -12,27 +12,11 @@
 
     
 }
-li{
-    background-color:blue;
-}
+
 .appear{
     animation-name:appear;
     animation-duration: 4s;
 }
-.dropdown{
-    position:relative;
-
-}
-.content{
-    clear:both;
-}
-.dropdown-content{
-    min-width: max-content;
-    max-height: 0;
-    transition: max-height 1s;
-}
-.dropdown:hover .dropdown-content,
-.dropdown:focus .dropdown-content,
-.dropdown:focus-within .dropdown-content {
-  max-height: 200px;
+nav{
+    display:flex;
 }
