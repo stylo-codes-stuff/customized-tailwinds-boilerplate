@@ -11,7 +11,8 @@ module.exports = {
       xl: '4px 4px 16px var(--tw-shadow-color)',
     }
   },
-  plugins: [plugin(function ({ matchUtilities, theme }) {
+  plugins: [plugin(function ({ addComponents ,matchUtilities ,theme }) {
+
     matchUtilities(
       {
         'text-shadow': (value) => ({

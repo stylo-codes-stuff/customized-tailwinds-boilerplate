@@ -1,26 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Candal;
+    src: "/Fonts/Candal-Regular.ttf";
+}
 @keyframes appear{
     0% {opacity: 0;}
     100% {opacity: 1;}
 
     
 }
-
-
+li{
+    background-color:blue;
+}
 .appear{
     animation-name:appear;
     animation-duration: 4s;
 }
+.dropdown{
+    position:relative;
 
-nav{
-    width: 100%;
-    background-color: green;
-    display:flex;
-    justify-content: space-between;
 }
-.nav-bar{
-    padding: 20px;
-    display:flex;
+.content{
+    clear:both;
+}
+.dropdown-content{
+    min-width: max-content;
+    max-height: 0;
+    transition: max-height 1s;
+}
+.dropdown:hover .dropdown-content,
+.dropdown:focus .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  max-height: 200px;
 }
