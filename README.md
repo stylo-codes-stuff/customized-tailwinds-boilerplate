@@ -1,2 +1,2 @@
 # customized-tailwinds-boilerplate
-personal boilerplate that includes customized features such as plugins for text-shadow and other unadded features
+personal boilerplate that includes customized features that are common in my projects such as components for intersection observation and dropdown menus.
